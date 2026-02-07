@@ -1,0 +1,41 @@
+*{
+text-align:center;
+}
+h1 {
+  color:blue;
+  background:pink;
+  font-family:serif;
+  
+}
+table{
+width:75%;
+  
+}
+.day{
+  color:hsl(0, 100%, 50%);
+  background:yellow;
+  
+}
+.free{
+background:white;
+  color:blue;
+  
+}
+#mon{
+background:aqua;
+}
+#tue{
+background:silver;
+}
+#wed{
+background:purple;
+}
+#thr{
+background:teal;
+}
+#fri{
+background:olive;
+}
+#sat{
+background:maroon;
+}
