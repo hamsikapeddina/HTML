@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<style>
+input{
+margin:6px;
+}
+</style>
+</head>
+
+<body>
+<h2>Login Form</h2>
+
+<form>
+Username:
+<input type="text" pattern="[A-Za-z]+" required><br>
+
+Password:
+<input type="password"
+pattern="(?=.*[0-9])(?=.*[!@#$%^&*]).{6,}" required><br>
+
+<input type="submit">
+</form>
+</body>
+</html>
